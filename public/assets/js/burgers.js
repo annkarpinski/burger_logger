@@ -2,9 +2,12 @@
 $(function () {
   $(".change-devoured").on("click", function (event) {
     const id = $(this).data("id");
+    // only needed for regurgitating the burger
+    var newDevour = $(this).data("newdevour");
 
-    const newDevouredState = {
-      devoured: 1,
+    var newDevouredState = {
+      //could have devoured: 1 to not regurgitate the burger
+      devoured: newDevour,
     };
 
     // Send the PUT request.
@@ -12,7 +15,8 @@ $(function () {
       type: "PUT",
       data: newDevouredState,
     }).then(function () {
-      console.log("changed to devoured");
+      //adding newDevour so you can regurgitate a burger
+      console.log("changed to devoured", newDevour);
       // Reload the page to get the updated list
       location.reload();
     });

@@ -1,19 +1,57 @@
+body {
+  padding: 5px;
+  background-color: #f2d153;
+}
+
+h1 {
+  color: red;
+  font-family: "Muli", sans-serif;
+}
+
+h2 {
+  color: red;
+  font-family: "Muli", sans-serif;
+}
+
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  font-family: "Muli", sans-serif;
 }
 
-.label {
-  font-weight: bold;
+.burger-img {
+  height: 300px;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+#img-div {
+  text-align: center;
+}
+
+.uneaten {
+  list-style: none;
+  background-color: #f4eada;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.devoured {
+  margin: 0;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.devour-button {
+  font-family: "Muli", sans-serif;
+  margin-left: 20px;
+  max-height: 30px;
 }
 
 .form-group {
-  margin-bottom: 5px;
+  font-family: "Muli", sans-serif;
+}
+
+.submit-button {
+  font-family: "Muli", sans-serif;
 }
