@@ -1,57 +1,98 @@
 body {
   padding: 5px;
   background-color: #f2d153;
+  text-align: center;
 }
 
 h1 {
   color: red;
   font-family: "Muli", sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 h2 {
   color: red;
   font-family: "Muli", sans-serif;
+  text-align: center;
 }
 
 li {
   font-family: "Muli", sans-serif;
-}
-
-.burger-img {
-  height: 300px;
-}
-
-#img-div {
   text-align: center;
 }
 
-.uneaten {
-  list-style: none;
-  background-color: #f4eada;
-  padding: 10px 0px 10px 0px;
-  width: 200px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.devoured {
-  margin: 0;
-}
-
-.row {
-  margin-bottom: 10px;
-}
-
-.devour-button {
+.create-form {
   font-family: "Muli", sans-serif;
-  margin-left: 20px;
-  max-height: 30px;
+  display: inline-block;
 }
 
 .form-group {
-  font-family: "Muli", sans-serif;
+  font-weight: bold;
 }
 
-.submit-button {
+.uneaten {
+  background-color: #f4eada;
+  padding: 5px 0px 5px 0px;
+  width: 250px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.eaten {
+  background-color: #f4eada;
+  padding: 5px 0px 5px 0px;
+  width: 250px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+#burger {
+  width: 300px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+#add-button {
   font-family: "Muli", sans-serif;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  border: none;
+}
+
+#eat-button {
+  font-family: "Muli", sans-serif;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 80px;
+  height: 25px;
+  border: none;
+}
+
+#compost-button {
+  font-family: "Muli", sans-serif;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 90px;
+  height: 25px;
+  border: none;
+}
+
+#regurgitate-button {
+  font-family: "Muli", sans-serif;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  height: 25px;
+  border: none;
 }
