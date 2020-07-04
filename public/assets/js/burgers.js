@@ -1,6 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function () {
-  $(".change-devoured").on("click", function (event) {
+  $("#eat-button").on("click", function (event) {
     const id = $(this).data("id");
     // only needed for regurgitating the burger
     var newDevour = $(this).data("newdevour");
@@ -36,6 +36,19 @@ $(function () {
       data: newBurger,
     }).then(function () {
       console.log("created new burger");
+      // Reload the page to get the updated list
+      location.reload();
+    });
+  });
+
+  $("#compost-button").on("click", function (event) {
+    var id = $(this).data("id");
+
+    // Send the DELETE request.
+    $.ajax("/api/burgers/" + id, {
+      type: "DELETE",
+    }).then(function () {
+      console.log("composted burger", id);
       // Reload the page to get the updated list
       location.reload();
     });

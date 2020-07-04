@@ -2,28 +2,33 @@ body {
   padding: 5px;
   background-color: #f2d153;
   text-align: center;
+  color: red;
+  font-family: "Muli", sans-serif;
 }
 
 h1 {
-  color: red;
-  font-family: "Muli", sans-serif;
   font-size: 50px;
-  text-align: center;
-}
-
-h2 {
-  color: red;
-  font-family: "Muli", sans-serif;
-  text-align: center;
 }
 
 li {
-  font-family: "Muli", sans-serif;
-  text-align: center;
+  color: black;
+  background-color: #f4eada;
+  padding: 5px 0px 5px 0px;
+  width: 250px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+button {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  height: 25px;
+  border: none;
 }
 
 .create-form {
-  font-family: "Muli", sans-serif;
   display: inline-block;
 }
 
@@ -31,68 +36,25 @@ li {
   font-weight: bold;
 }
 
-.uneaten {
-  background-color: #f4eada;
-  padding: 5px 0px 5px 0px;
-  width: 250px;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-
-.eaten {
-  background-color: #f4eada;
-  padding: 5px 0px 5px 0px;
-  width: 250px;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-
-#burger {
+#burger-input {
   width: 300px;
   height: 30px;
   margin-left: 5px;
 }
 
 #add-button {
-  font-family: "Muli", sans-serif;
-  margin-top: 10px;
-  background-color: red;
-  color: white;
-  font-weight: bold;
   width: 100px;
   height: 35px;
-  border: none;
 }
 
 #eat-button {
-  font-family: "Muli", sans-serif;
-  margin-top: 10px;
-  background-color: red;
-  color: white;
-  font-weight: bold;
   width: 80px;
-  height: 25px;
-  border: none;
 }
 
 #compost-button {
-  font-family: "Muli", sans-serif;
-  margin-top: 10px;
-  background-color: red;
-  color: white;
-  font-weight: bold;
   width: 90px;
-  height: 25px;
-  border: none;
 }
 
 #regurgitate-button {
-  font-family: "Muli", sans-serif;
-  margin-top: 10px;
-  background-color: red;
-  color: white;
-  font-weight: bold;
   width: 120px;
-  height: 25px;
-  border: none;
 }
