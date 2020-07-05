@@ -28,13 +28,16 @@
                     <li class="uneaten">
                         {{id}}. {{burger_name}}
                     </li>
-                    <button id="eat-button" data-id="{{id}}" data-state="false">Eat It!</button>
-                    <button id="compost-button" data-id="{{id}}" data-state="false">Compost It!</button>
+                    <button class="change-devoured" data-id="{{id}}" data-newDevour="true">Eat
+                        It!</button>
+                    <button id="compost-button" data-id="{{id}}">Compost It!</button>
                 </div>
                 {{/unless}}
                 {{/each}}
             </ul>
+
         </div>
+
 
         <br>
 
@@ -47,7 +50,8 @@
                     <li class="eaten">
                         {{id}}. {{burger_name}}
                     </li>
-                    <button id="regurgitate-button" data-id="{{id}}" data-state="false">Regurgitate It!</button>
+                    <button class="change-devoured" data-id="{{id}}" data-newDevour="false">Regurgitate
+                        It!</button>
                 </div>
                 {{/if}}
                 {{/each}}
