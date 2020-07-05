@@ -15,16 +15,17 @@ li {
   background-color: #f4eada;
   padding: 5px 0px 5px 0px;
   width: 250px;
-  margin-bottom: 5px;
+  margin: 0px 3px 5px 0px;
   display: inline-block;
 }
 
 button {
-  margin-top: 10px;
+  margin: 10px 3px 0px 0px;
   background-color: red;
   color: white;
   font-weight: bold;
   height: 25px;
+  padding: 0px 15px 0px 15px;
   border: none;
 }
 
@@ -45,16 +46,5 @@ button {
 #add-button {
   width: 100px;
   height: 35px;
-}
-
-#eat-button {
-  width: 80px;
-}
-
-#compost-button {
-  width: 90px;
-}
-
-#regurgitate-button {
-  width: 120px;
+  padding: 0px;
 }
