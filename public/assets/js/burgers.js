@@ -42,7 +42,7 @@ $(function () {
     });
   });
 
-  $("#compost-button").on("click", function (event) {
+  $(".compost-button").on("click", function (event) {
     var id = $(this).data("id");
 
     // Send the DELETE request.
