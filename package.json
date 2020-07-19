@@ -1,5 +1,5 @@
 {
-  "name": "du_homework13_burgerlogger",
+  "name": "burger_logger",
   "version": "1.0.0",
   "description": "### Overview",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annkarpinski/DU_Homework13_BurgerLogger.git"
+    "url": "git+https://github.com/annkarpinski/burger_logger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/annkarpinski/DU_Homework13_BurgerLogger/issues"
+    "url": "https://github.com/annkarpinski/burger_logger/issues"
   },
-  "homepage": "https://github.com/annkarpinski/DU_Homework13_BurgerLogger#readme",
+  "homepage": "https://github.com/annkarpinski/burger_logger#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
